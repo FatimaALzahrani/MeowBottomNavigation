@@ -59,12 +59,6 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigation.setCount(4,"5");
 
     }
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.bottom_nav_menu, menu);
-        return true;
-    }
     //define a load method to feed the screen
     private void loadFragment(Fragment fragment) {
         //replace the fragment
