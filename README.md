@@ -46,7 +46,7 @@
               mavenCentral()
             jcenter()
     }
-   }
+    }
 ### 3- في ملف gradle.properties بنضيف , هذي السطرين :
 #
         android.useAndroidX=true
