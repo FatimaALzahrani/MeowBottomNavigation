@@ -2,7 +2,7 @@
 كيف نسوي منيو زي هذي بالفيديو تحت ؟:)
 
 # المحتويات
-* [المكاتب_اللي_بننزلها](#lib)
+* [المكاتب اللي بننزلها](#المكاتب_اللي_بننزلها)
 * [ملف جافا](#java)
 * [xml ملف](#xml)
 * [الصور](#xml)
@@ -10,9 +10,6 @@
 * [عداد](#count)
 
 ## المكاتب_اللي_بننزلها
-
-
-## lib
 ### بنضيف dependencies عند ال build.gradle (module path) في ملف
 #
       implementation 'com.etebarian:meow-bottom-navigation-java:1.2.0'
