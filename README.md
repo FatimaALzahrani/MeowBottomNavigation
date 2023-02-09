@@ -3,14 +3,14 @@
 
 # المحتويات
 * [المكاتب اللي بننزلها](#المكاتب_اللي_بننزلها)
-* [ملف جافا](#java)
-* [xml ملف](#xml)
-* [الصور](#xml)
-* [باقي الصفحات](#pages)
-* [عداد](#count)
+* [ملف جافا الاساسي](#ملف_جافا)
+* [xml ملف](#xml_ملف)
+* [الصور](#الصور)
+* [باقي الصفحات](#باقي_الصفحات)
+* [عداد](#عداد)
 
 ## المكاتب_اللي_بننزلها
-### بنضيف dependencies عند ال build.gradle (module path) في ملف
+### 1- بنضيف dependencies عند ال build.gradle (module path) في ملف
 #
       implementation 'com.etebarian:meow-bottom-navigation-java:1.2.0'
 #### فيصير كذا :
@@ -25,4 +25,12 @@
       implementation 'com.stripe:stripe-android:20.11.0'
       implementation 'com.etebarian:meow-bottom-navigation-java:1.2.0'
       }
+  ### 2- بنضيف dependencies عند ال build.gradle (module path) في ملف
+
   
+  ## ملف_جافا
+  
+  ## xml_ملف
+  ## الصور
+  ## باقي_الصفحات
+  ## عداد
