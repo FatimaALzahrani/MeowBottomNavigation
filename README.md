@@ -38,16 +38,15 @@
         mavenCentral()
         jcenter()
     }
-}
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
-        jcenter()
-
     }
-}
+      dependencyResolutionManagement {
+         repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+        repositories {
+             google()
+              mavenCentral()
+            jcenter()
+    }
+   }
 ### 3- في ملف gradle.properties بنضيف , هذي السطرين :
 #
         android.useAndroidX=true
@@ -123,6 +122,7 @@ https://user-images.githubusercontent.com/107775566/217816893-62e5fab6-ffb9-4083
         app:showAsAction="ifRoom"
         android:icon="@drawable/cartt" />
 </menu>
+
 #### طبعا كل item بيمثل عنصر او مربع في هذي القائمة وخاصيه title بتمثل النص المكتوب ونغيره حسب المطلوب , وال icon بتكون كذا  android:icon="@drawable/الاسم" والاسم هنا اقصد فيه اسم الصوره اللي اضفناها في الخطوه اللي قبل هذي 
 #### طيب لو ما عندنا مجلد menu ؟  بننشئه كذا (نضغط بالزر اليمين على مجلد res -> بعدها Android Resource Directory -> بعدين في Resource Type بنختار menu)
 https://user-images.githubusercontent.com/107775566/217820190-8c296258-5d73-41b0-bac5-5b655ab44b2b.mp4
