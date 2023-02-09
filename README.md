@@ -2,14 +2,14 @@
 كيف نسوي منيو زي هذي بالفيديو تحت ؟:)
 
 # المحتويات
-* [المكاتب اللي بننزلها](#lib)
+* [المكاتب_اللي_بننزلها](#lib)
 * [ملف جافا](#java)
 * [xml ملف](#xml)
 * [الصور](#xml)
 * [باقي الصفحات](#pages)
 * [عداد](#count)
 
-## المكاتب اللي بننزلها
+## المكاتب_اللي_بننزلها
 ### بنضيف dependencies عند ال build.gradle (module path) في ملف
 #
       implementation 'com.etebarian:meow-bottom-navigation-java:1.2.0'
