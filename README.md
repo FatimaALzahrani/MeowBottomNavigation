@@ -1,5 +1,5 @@
 # Meow Bottom Navigation
- كشخة للتنقل؟ menu كيف نسوي
+كيف نسوي منيو زي هذي بالفيديو تحت ؟:)
 
 # المحتويات
 * [المكاتب اللي بننزلها](#lib)
@@ -15,7 +15,6 @@
       implementation 'com.etebarian:meow-bottom-navigation-java:1.2.0'
 #### فيصير كذا :
 #
-  
   dependencies {
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
